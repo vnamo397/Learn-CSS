@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* กล่อง */
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(13, 121, 34, 0.15);
+}
+
+/* icon */
+.login-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-icon i {
+    font-size: 50px;
+    color: #010b06;
+}
+
+/* title */
+.login-topic {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* button */
+form button[type="submit"] {
+    padding: 12px;
+    background-color: #147e29;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider .divider-line {
+    border-top: 1px solid #bbbbbb;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.divider span {
+    background-color: #fff;
+    padding: 0 10px;
+    color: #777777;
+    font-size:1.2rem;
+    position: relative;
+    z-index: 2;
+}
+
+button.btn-social {
+    background-color: #c6c6c6;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+button.btn-social i {
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.signup-link a {
+    color: #147e29;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button.btn-social:hover {
+    background-color: #c8e84a;
+}
